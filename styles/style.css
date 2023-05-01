@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/img/1600x900px-HeroImage-Analytics.jpg);
+    color: white;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.cabecalho {
+    color: rgb(16, 42, 128);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 10px 5px 5px 0px;
+    border: 5px solid rgb(0, 150, 255);
+    border-radius: 80px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+#name {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#descricao {
+    margin-top: 40px;
+}
+
+.dados {
+    margin-top: 25px;
+}
+
+.corpo, .rodape {
+    margin: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.objc, .formc, .exper, .conhec {
+    margin: 15px;
+}
+
+#secao1, #secao2, #secao3, #secao4, #secao5 {
+    margin-bottom: 8px;
+}
+
+.infoadicional {
+    margin-left: 125px;
+    background-color:rgba(255,255,255, 0.100);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 5px solid rgb(0, 150, 255);
+    border-radius: 100px;
+    padding: 40px;
+    display: inline-block;
+}
